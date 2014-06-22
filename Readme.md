@@ -4,7 +4,10 @@
 
 For the purposes of this cleaning script it is assumed that the zip file is already downloaded and unzipped, with the existing file names and structure, into a subdirectory of your working directory called Data.
 
+If this is not the case then please run the other script i the repo called 'get_data.R'.
+
 There are 6 files we are interested in, with ‘test’ and ‘train’ data for each of the following 3 file types:
+
 1. X – contains a data frame of all the readings. NOTE - Features are normalized and bounded within [-1,1].
 2. y – contains a vector list of which activity type was being undertaken during the readings, these are:
 		* Walking
